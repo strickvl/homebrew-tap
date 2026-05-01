@@ -1,25 +1,25 @@
 class Panlabel < Formula
   desc "The universal annotation converter"
   homepage "https://github.com/strickvl/panlabel"
-  version "0.6.0"
+  version "0.7.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/strickvl/panlabel/releases/download/v0.6.0/panlabel-aarch64-apple-darwin.tar.xz"
-      sha256 "b6a22ee1b2fbec0f510a89b7a41bfc538a5b134cc6edb5f90e57324653857de6"
+      url "https://github.com/strickvl/panlabel/releases/download/v0.7.0/panlabel-aarch64-apple-darwin.tar.xz"
+      sha256 "a2cfd68e77f2f1627f0d66206bdb68ac953190b52dfe3ebd739667d2e145adac"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/strickvl/panlabel/releases/download/v0.6.0/panlabel-x86_64-apple-darwin.tar.xz"
-      sha256 "b5e689788d5eac73c78328651a8d1eaff88dc461d43af3e571333d40971080c5"
+      url "https://github.com/strickvl/panlabel/releases/download/v0.7.0/panlabel-x86_64-apple-darwin.tar.xz"
+      sha256 "f6af6ce2fbc4ec729955f1c9d2e00dc450b43006e59f1e543c6398d4f4c1224a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/strickvl/panlabel/releases/download/v0.6.0/panlabel-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "9edbf20a24316d16d5ba1998fa95b08555711c836da77f426f615bffad117d4e"
+      url "https://github.com/strickvl/panlabel/releases/download/v0.7.0/panlabel-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "54b7c0c0cfb93cd71292a2d81a7e3259c226a5ba38f89b8bb164ad51019c3ea4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/strickvl/panlabel/releases/download/v0.6.0/panlabel-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "ee60ff2292eaac84c91ba6d2ff22620c6163a93123c236aa5420389a0333180d"
+      url "https://github.com/strickvl/panlabel/releases/download/v0.7.0/panlabel-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "26b3741ca7a7732f466fdef5ec3c6efe1150cfb5a943488ebef0b5b8b36fcea1"
     end
   end
   license "MIT"
